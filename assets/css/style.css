@@ -6,22 +6,15 @@ body {
     text-align: center;
 }
 
-h1,
-h2 {
+h1, h2 {
     color: darkred;
 }
 
-h3, 
-p,
-li {
+h3, p, li {
     color: green;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-}
+
 
 main {
     margin: 0 20%;
@@ -58,13 +51,11 @@ nav a:hover {
     background-color: white;
 }
 
-#banner img {
-    width: 60%;
-    height: auto;
-}
+
 
 .service {
     display: inline-block;
+    text-align: center;
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
@@ -83,4 +74,18 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+nav {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.highlight {
+    color: red;
 }
